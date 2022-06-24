@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    font-family: Roboto, sans-serif;
 }
 
 body > div {
@@ -29,25 +30,48 @@ body > div {
     justify-content: center;
 }
 
-.container {
-    display: flex;
-    flex: 1;
-    align-items: center;
-}
-
-.img-hero {
-    width: 800px;
-    height: 150px;
-    background-color: lightgray;
-}
-
 .list-clean {
     list-style-type: none;
     padding-left: 0;
+}
+
+.img-hero {
+    width: 850px;
+    height: 150px;
+    background-color: hsl(0, 0%, 83%, 60%);
 }
 
 .header-links a {
     text-decoration: none;
     color: white;
     margin: 0 8px;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.contents {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+/* content section 1*/
+.cs1 {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    height: 300px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: bold;
 }
