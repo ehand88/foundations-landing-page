@@ -43,11 +43,21 @@ body > div {
 
 .img-captions {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    text-align: center;
 }
 
 .img-captions li {
-    width: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+.img-captions a {
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    height: 120px;
 }
 
 .header-links a {
