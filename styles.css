@@ -90,6 +90,27 @@ h1 {
     flex-direction: column;
 }
 
+.cs3 {
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 64px 310px;
+}
+
+.cs3 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.cs3 div {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 16px;
+}
+
 button {
     background-color: #3882F6;
     color: white;
