@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin: 0 128px;
+}
+
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 64px;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
+}
