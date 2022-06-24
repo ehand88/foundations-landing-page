@@ -41,6 +41,15 @@ body > div {
     background-color: hsl(0, 0%, 83%, 60%);
 }
 
+.img-captions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-captions li {
+    width: 100px;
+}
+
 .header-links a {
     text-decoration: none;
     color: white;
@@ -65,6 +74,10 @@ h1 {
     color: white;
     font-size: 18px;
     height: 300px;
+}
+
+.cs2 {
+    flex-direction: column;
 }
 
 button {
