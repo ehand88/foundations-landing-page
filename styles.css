@@ -21,6 +21,10 @@ body > div {
     justify-content: space-between;
 }
 
+.header-links {
+    display: flex;
+}
+
 .footer {
     justify-content: center;
 }
@@ -28,4 +32,22 @@ body > div {
 .container {
     display: flex;
     flex: 1;
+    align-items: center;
+}
+
+.img-hero {
+    width: 800px;
+    height: 150px;
+    background-color: lightgray;
+}
+
+.list-clean {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 8px;
 }
