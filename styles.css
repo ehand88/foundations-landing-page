@@ -23,6 +23,14 @@ body > div {
     height: 64px;
 }
 
+.header > img {
+    height: 40px;
+    padding: 4px;
+    background-color: white;
+    border: 4px solid #3882f6;
+    border-radius: 4px;
+}
+
 .header-links {
     display: flex;
 }
@@ -41,6 +49,8 @@ body > div {
     width: 50%;
     height: 100%;
     background-color: hsl(0, 0%, 83%, 60%);
+    border: 12px solid white;
+    border-radius: 4px;
 }
 
 .img-captions {
@@ -57,10 +67,11 @@ body > div {
     width: 160px;
 }
 
-.img-captions a {
+.img-captions img {
     border: 4px solid #3882f6;
     border-radius: 12px;
     height: 160px;
+    object-fit: cover;
 }
 
 .header-links a {
